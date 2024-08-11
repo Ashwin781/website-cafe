@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f2ef;
+    color: #333;
+}
+.listitems{
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+}
+header {
+    width: 90%;
+    height: 10vh;
+    position:relative
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+}
+
+header .logo img {
+    width: 130px;
+    margin-top: -10px;
+}
+
+.listitems{
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+    
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.links:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.about-us {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.about-us h2 {
+    color: #b36c5d;
+    font-size: 24px;
+}
+
+.about-us p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.about-us button {
+    background-color: #6a4736;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.gallery-row img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .as-seen-in {
+    margin-bottom: 20px;
+}
+
+footer .as-seen-in img {
+    height: 60px;
+    margin: 0 10px;
+    
+}
+
+footer .social-media img {
+    
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+
+}
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+
+}
+.icon{
+    /* border: solid; */
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to right,rgb(80, 45, 26),rgb(214, 111, 14));
+
+}
+.icon:hover .brands{
+    color: rgb(255, 255, 255);
+    /* animations */
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
